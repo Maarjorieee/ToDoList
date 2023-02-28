@@ -74,9 +74,6 @@
             // 
             this.listboxListagemDeTarefas.FormattingEnabled = true;
             this.listboxListagemDeTarefas.ItemHeight = 15;
-            this.listboxListagemDeTarefas.Items.AddRange(new object[] {
-            "Add",
-            "Remove"});
             this.listboxListagemDeTarefas.Location = new System.Drawing.Point(60, 257);
             this.listboxListagemDeTarefas.Name = "listboxListagemDeTarefas";
             this.listboxListagemDeTarefas.Size = new System.Drawing.Size(568, 214);
@@ -88,7 +85,7 @@
             this.txtTarefa.Name = "txtTarefa";
             this.txtTarefa.Size = new System.Drawing.Size(244, 23);
             this.txtTarefa.TabIndex = 4;
-            this.txtTarefa.TextChanged += new System.EventHandler(this.txtTarefa_TextChanged);
+            
             // 
             // dateTimeData
             // 
@@ -97,7 +94,7 @@
             this.dateTimeData.Size = new System.Drawing.Size(244, 23);
             this.dateTimeData.TabIndex = 5;
             this.toolTipMensagem.SetToolTip(this.dateTimeData, "Digite a data da tarefa!");
-            this.dateTimeData.ValueChanged += new System.EventHandler(this.dateTimeData_ValueChanged);
+          
             // 
             // btnIncluir
             // 
@@ -126,7 +123,7 @@
             this.toolTipMensagem.IsBalloon = true;
             this.toolTipMensagem.ShowAlways = true;
             this.toolTipMensagem.ToolTipIcon = System.Windows.Forms.ToolTipIcon.Info;
-            this.toolTipMensagem.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTipMensagem_Popup);
+           
             // 
             // FormJanelaToDoList
             // 

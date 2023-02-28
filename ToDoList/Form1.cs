@@ -7,11 +7,7 @@ namespace ToDoList
             InitializeComponent();
         }
 
-                private void dateTimeData_ValueChanged(object sender, EventArgs e)
-            {
-
-            }
-
+          
        
         private void btnIncluir_Click(object sender, EventArgs e)
         {
@@ -44,14 +40,6 @@ namespace ToDoList
             }
         }
 
-        private void toolTipMensagem_Popup(object sender, PopupEventArgs e)
-        {
-
-        }
-
-        private void txtTarefa_TextChanged(object sender, EventArgs e)
-        {
-            
-        }
+             
     }
 }
